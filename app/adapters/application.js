@@ -1,4 +1,4 @@
-import ENV from 'ga-wdi-boston.ember-auth/config/environment';
+import ENV from 'blogs-with-buds/config/environment';
 import ActiveModelAdapter from 'active-model-adapter';
 
 import Ember from 'ember';
