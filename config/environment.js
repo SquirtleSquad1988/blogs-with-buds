@@ -3,7 +3,7 @@
 module.exports = function (environment) {
   'use strict';
   const ENV = {
-    modulePrefix: 'ga-wdi-boston.ember-auth',
+    modulePrefix: 'blogs-with-buds',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
@@ -49,7 +49,9 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
+    ENV.rootURL = '/blogs-with-buds';
     ENV.locationType = 'hash';
+    ENV.apiHost = '';
   }
 
   return ENV;
